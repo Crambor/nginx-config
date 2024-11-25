@@ -1,2 +1,2 @@
 # nginx-config
-homelab
+homelab config
