@@ -11,6 +11,8 @@ if [ ! -d "$INPUT_DIR" ]; then
     exit 1
 fi
 
+git pull
+
 echo "Copying 'defaults' to /etc/nginx/..."
 sudo cp -r defaults/* /etc/nginx/
 
